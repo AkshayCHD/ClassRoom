@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ClassRoom</string>
+    <string-array name="CSE_Subjects_sem1">
+        <item>Intro to Computer Science</item>
+        <item>Programming Fundamentals</item>
+        <item>Ethics And Self Awareness</item>
+        <item>Quantum Physics</item>
+        <item>Calculus</item>
+        <item>Environment Science</item>
+
+    </string-array>
+    <string-array name="IT_Subjects_sem1">
+        <item>Intro to Information Technology</item>
+        <item>Programming Fundamentals</item>
+        <item>Ethics And Self Awareness</item>
+        <item>Electrical</item>
+        <item>Calculus</item>
+        <item>Environment Science</item>
+
+    </string-array>
+
+    <string-array name="CSE_Subjects_sem2">
+        <item>Objects Oriented Programming</item>
+        <item>Diffrential Equations and Transforms</item>
+        <item>Digital Electronics</item>
+        <item>Applied Chemistry</item>
+        <item>Communication Skills</item>
+
+
+    </string-array>
+
+    <string-array name="IT_Subjects_sem2">
+    <item>Diffrential Equations and Transforms</item>
+    <item>Communication Skills</item>
+    <item>Quantum Physics</item>
+    <item>Intro to Environmental Science</item>
+    <item>Introduction to Electronics</item>
+
+    </string-array>
+
+
+    <string-array name="MECH_Subjects_sem1">
+        <item>Calculus</item>
+        <item>Engineering Mechanics 1</item>
+        <item>Intro to Manufacturing Process</item>
+        <item>Applied Chemistry</item>
+        <item>Intro to Environmental Science</item>
+        <item>Communication Skills</item>
+
+    </string-array>
+    <string-array name="MECH_Subjects_sem2">
+        <item>Diffrential Equations and Transforms</item>
+        <item>Ethics and Self Awareness</item>
+        <item>Engineering Mechanics</item>
+        <item>Engineering Graphics</item>
+        <item>Quantum Physics</item>
+        <item>Computer Programming(MATLAB)</item>
+
+    </string-array>
+</resources>
