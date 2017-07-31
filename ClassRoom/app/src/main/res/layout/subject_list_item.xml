@@ -15,7 +15,6 @@
         android:id="@+id/subject_button"
         android:layout_width="150dp"
         android:layout_height="150dp"
-
         android:textSize="15dp"/>
 
 </android.support.constraint.ConstraintLayout>

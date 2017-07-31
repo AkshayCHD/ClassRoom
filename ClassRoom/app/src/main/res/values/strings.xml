@@ -30,11 +30,11 @@
     </string-array>
 
     <string-array name="IT_Subjects_sem2">
-    <item>Diffrential Equations and Transforms</item>
-    <item>Communication Skills</item>
-    <item>Quantum Physics</item>
-    <item>Intro to Environmental Science</item>
-    <item>Introduction to Electronics</item>
+        <item>Diffrential Equations and Transforms</item>
+        <item>Communication Skills</item>
+        <item>Quantum Physics</item>
+        <item>Intro to Environmental Science</item>
+        <item>Introduction to Electronics</item>
 
     </string-array>
 
@@ -55,6 +55,58 @@
         <item>Engineering Graphics</item>
         <item>Quantum Physics</item>
         <item>Computer Programming(MATLAB)</item>
+
+    </string-array>
+    <string-array name="ECE_Subjects_sem1">
+        <item>Calculus</item>
+        <item>Intro to Electronics</item>
+        <item>Applied Chemistry</item>
+        <item>Communication Skills</item>
+        <item>Computer Programming(MATLAB)</item>
+
+    </string-array>
+    <string-array name="ECE_Subjects_sem2">
+        <item>Diffrential Equations and Transforms</item>
+        <item>Ethics and Self Awareness</item>
+        <item>Quantum Physics</item>
+        <item>Intro to Evironment Science</item>
+        <item>Analog Electronic Circuits 1</item>
+        <item>Digital Design</item>
+
+    </string-array>
+    <string-array name="EEE_Subjects_sem1">
+        <item>Calculus</item>
+        <item>Intro to Electronics</item>
+        <item>Applied Chemistry</item>
+        <item>Communication Skills</item>
+        <item>Basic Electrical Enginnering</item>
+
+
+    </string-array>
+    <string-array name="EEE_Subjects_sem2">
+        <item>Diffrential Equation and Transforms</item>
+        <item>Ethics and Self Awareness</item>
+        <item>Quantum Physics</item>
+        <item>Computer Programming</item>
+        <item>Intro to Environment Science</item>
+        <item>Electrical Measurement and Instrumentation</item>
+
+    </string-array>
+    <string-array name="BIO_Subjects_sem1">
+        <item>Calculus</item>
+        <item>Basic Biology</item>
+        <item>Computer Programming</item>
+        <item>Quantum Physics</item>
+        <item>Ethics and Self Awareness</item>
+        <item>Intro to Environment Science</item>
+
+    </string-array>
+    <string-array name="BIO_Subjects_sem2">
+        <item>Diffrential Equatoin and Transforms</item>
+        <item>Communication Skills</item>
+        <item>General Chemistry</item>
+        <item>Basic Biotechnology</item>
+        <item>Fundamentals of Biotechnology and BioEngineering</item>
 
     </string-array>
 </resources>

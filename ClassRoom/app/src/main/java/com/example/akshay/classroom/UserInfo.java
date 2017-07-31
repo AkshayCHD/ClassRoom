@@ -8,13 +8,13 @@ import java.io.Serializable;
 
 public class UserInfo implements Serializable{
     private int SemValue;
-    private int SubjectValue;
+    private String SubjectValue;
 
     public int getSemValues() {
         return SemValue;
     }
 
-    public int getSubjectValues() {
+    public String getSubjectValues() {
         return SubjectValue;
     }
 
@@ -22,7 +22,7 @@ public class UserInfo implements Serializable{
         SemValue = semValue;
     }
 
-    public void setSubjectValues(int subjectValue) {
+    public void setSubjectValues(String subjectValue) {
         SubjectValue = subjectValue;
     }
 }

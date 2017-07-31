@@ -18,7 +18,9 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.Button
 
     private String[] mSubString;
 
-    public SubjectsAdapter(Context context, int semester,int branch){
+    final private ListItemClickListener mOnClickListener;
+
+    public SubjectsAdapter(Context context, int semester,int branch,ListItemClickListener listener){
         Resources res = context.getResources();
         if(semester== SubjectContract.SubjectEntry.sem1){
             if ( branch == SubjectContract.SubjectEntry.CSE) {
@@ -33,6 +35,16 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.Button
                 mSubString=res.getStringArray(R.array.MECH_Subjects_sem1);
 
             }
+            if(branch==SubjectContract.SubjectEntry.ECE){
+                mSubString=res.getStringArray(R.array.ECE_Subjects_sem1);
+
+            }if(branch==SubjectContract.SubjectEntry.EEE){
+                mSubString=res.getStringArray(R.array.EEE_Subjects_sem1);
+
+            }if(branch==SubjectContract.SubjectEntry.BIO){
+                mSubString=res.getStringArray(R.array.BIO_Subjects_sem1);
+
+            }
         }else if(semester== SubjectContract.SubjectEntry.sem2){
             if(branch== SubjectContract.SubjectEntry.CSE){
 
@@ -43,9 +55,22 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.Button
                 mSubString=res.getStringArray(R.array.IT_Subjects_sem2);
             }
             if(branch== SubjectContract.SubjectEntry.MECH){
-                mSubString=res.getStringArray(R.array.MECH_Subjects_sem2);7
+                mSubString=res.getStringArray(R.array.MECH_Subjects_sem2);
+            }
+            if(branch==SubjectContract.SubjectEntry.ECE){
+                mSubString=res.getStringArray(R.array.ECE_Subjects_sem2);
+
+            }if(branch==SubjectContract.SubjectEntry.EEE){
+                mSubString=res.getStringArray(R.array.EEE_Subjects_sem2);
+
+            }if(branch==SubjectContract.SubjectEntry.BIO){
+                mSubString=res.getStringArray(R.array.BIO_Subjects_sem2);
+
             }
         }
+
+        mOnClickListener=listener;
+
 
 
 
@@ -70,18 +95,33 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.Button
         return mSubString.length;
     }
 
-    class ButtonViewHolder extends RecyclerView.ViewHolder{
+
+    public interface ListItemClickListener{
+        void onListItemClick(String ClickedItem);
+    }
+
+
+    class ButtonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         Button mSubjectButtom;
         public ButtonViewHolder(View itemView) {
             super(itemView);
-            mSubjectButtom=(Button)itemView.findViewById(R.id.subject_button);
+            mSubjectButtom= itemView.findViewById(R.id.subject_button);
+            mSubjectButtom.setOnClickListener(this);
 
         }
         void bind(String SubName){
             mSubjectButtom.setText(SubName);
+
         }
 
 
+        @Override
+        public void onClick(View view) {
+            int clickedItemIndex=getAdapterPosition();
+            String clickedString=mSubString[clickedItemIndex];
+            mOnClickListener.onListItemClick(clickedString);
+
+        }
     }
 }
