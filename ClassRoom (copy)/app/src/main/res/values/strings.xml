@@ -9,14 +9,38 @@
         <item>Environment Science</item>
 
     </string-array>
+    <string-array name="CSE_sem1_Images">
+        <item>@drawable/introtocse</item>
+        <item>@drawable/pf</item>
+        <item>@drawable/ethics</item>
+        <item>@drawable/quantum</item>
+
+        <item>@drawable/calculus</item>
+        <item>@drawable/environment</item>
+    </string-array>
+
+
     <string-array name="IT_Subjects_sem1">
         <item>Intro to Information Technology</item>
-        <item>Programming Fundamentals</item>
         <item>Ethics And Self Awareness</item>
+
         <item>Electrical</item>
+        <item>Programming Fundamentals</item>
+
         <item>Calculus</item>
         <item>Environment Science</item>
 
+    </string-array>
+    <string-array name="IT_sem1_Images">
+        <item>@drawable/introtoit</item>
+        <item>@drawable/ethics</item>
+        <item>@drawable/electrical</item>
+
+        <item>@drawable/pf</item>
+
+
+        <item>@drawable/calculus</item>
+        <item>@drawable/environment</item>
     </string-array>
 
     <string-array name="CSE_Subjects_sem2">
@@ -48,6 +72,19 @@
         <item>Communication Skills</item>
 
     </string-array>
+    <string-array name="MECH_sem1_Images">
+        <item>@drawable/calculus</item>
+        <item>@drawable/engineeringmech</item>
+        <item>@drawable/manufacprocess</item>
+
+        <item>@drawable/appchem</item>
+
+
+        <item>@drawable/environment</item>
+        <item>@drawable/commskills</item>
+    </string-array>
+
+
     <string-array name="MECH_Subjects_sem2">
         <item>Diffrential Equations and Transforms</item>
         <item>Ethics and Self Awareness</item>
@@ -65,6 +102,18 @@
         <item>Computer Programming(MATLAB)</item>
 
     </string-array>
+
+    <string-array name="ECE_sem1_Images">
+        <item>@drawable/calculus</item>
+        <item>@drawable/electrical</item>
+        <item>@drawable/appchem</item>
+
+        <item>@drawable/commskills</item>
+
+
+        <item>@drawable/comprogrammingmatlab</item>
+    </string-array>
+
     <string-array name="ECE_Subjects_sem2">
         <item>Diffrential Equations and Transforms</item>
         <item>Ethics and Self Awareness</item>
@@ -75,14 +124,31 @@
 
     </string-array>
     <string-array name="EEE_Subjects_sem1">
-        <item>Calculus</item>
-        <item>Intro to Electronics</item>
-        <item>Applied Chemistry</item>
         <item>Communication Skills</item>
+
+        <item>Intro to Electronics</item>
+
+        <item>Calculus</item>
+        <item>Applied Chemistry</item>
         <item>Basic Electrical Enginnering</item>
 
 
     </string-array>
+
+    <string-array name="EEE_sem1_Images">
+        <item>@drawable/commskills</item>
+        <item>@drawable/introtoelectronics</item>
+
+
+        <item>@drawable/calculus</item>
+        <item>@drawable/appchem</item>
+
+
+
+        <item>@drawable/electrical</item>
+    </string-array>
+
+
     <string-array name="EEE_Subjects_sem2">
         <item>Diffrential Equation and Transforms</item>
         <item>Ethics and Self Awareness</item>
@@ -93,14 +159,30 @@
 
     </string-array>
     <string-array name="BIO_Subjects_sem1">
-        <item>Calculus</item>
+
         <item>Basic Biology</item>
         <item>Computer Programming</item>
         <item>Quantum Physics</item>
         <item>Ethics and Self Awareness</item>
         <item>Intro to Environment Science</item>
-
+        <item>Calculus</item>
     </string-array>
+    <string-array name="BIO_sem1_Images">
+        <item>@drawable/basicbio</item>
+        <item>@drawable/pf</item>
+
+
+        <item>@drawable/quantum</item>
+        <item>@drawable/ethics</item>
+
+
+
+        <item>@drawable/environment</item>
+
+        <item>@drawable/calculus</item>
+    </string-array>
+
+
     <string-array name="BIO_Subjects_sem2">
         <item>Diffrential Equatoin and Transforms</item>
         <item>Communication Skills</item>
