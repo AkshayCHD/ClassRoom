@@ -1,5 +1,6 @@
 package com.example.akshay.classroom;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ScrollView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void SemButtonClicked(View view) {
 
+        boolean flag=true;
         UserInfo user=new UserInfo();
         switch (view.getId()){
 
@@ -32,11 +35,21 @@ public class MainActivity extends AppCompatActivity {
 
                 break;
 
-        }
-        Intent i=new Intent(this,SelectBranch.class);
-        i.putExtra("Object Passed", user);
-        startActivity(i);
+            default:
+                flag=false;
 
+        }
+        if(flag==true){
+
+            Intent i=new Intent(this,SelectBranch.class);
+            i.putExtra("Object Passed", user);
+            startActivity(i);
+
+
+        }
+        else{
+            Toast.makeText(getBaseContext(),"Notes for this semester currently not avaliable",Toast.LENGTH_SHORT).show();
+        }
 
     }
 }
