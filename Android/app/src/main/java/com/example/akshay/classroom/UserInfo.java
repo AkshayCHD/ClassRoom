@@ -7,6 +7,11 @@ import java.io.Serializable;
  */
 
 public class UserInfo implements Serializable{
+
+    public UserInfo(){
+        SemValue=1;
+
+    }
     private int SemValue;
     private String SubjectValue;
 
