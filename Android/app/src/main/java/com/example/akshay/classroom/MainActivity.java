@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if(flag==true){
 
-            Intent i=new Intent(this,SelectBranch.class);
+            Intent i=new Intent(this,SelectChoice.class);
             i.putExtra("Object Passed", user);
             startActivity(i);
 
